@@ -1,0 +1,13 @@
+Step 1:
+Install Yarp Package
+Yarp.ReverseProxy
+
+Step 2:
+Go to Program.cs File. Add Reverse Proxy Service and Add Map Reverse Proxy middleware. [Check Source Code]
+
+Step 3:
+Go to Properties folder. Click launchSetting.json file. Add the additional url
+ "applicationUrl": "http://localhost:5172;http://localhost:5173",
+
+Step 3:
+Go to appsetting.json file and configure the YARP. [Check Source Code]
